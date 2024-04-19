@@ -11,17 +11,17 @@
 
 .inputs,
 .inputs:focus {
-    background-color: #2b1c40;
+    background-color: #725700;
     color: #ddd;
 }
 
 .inputs::placeholder {
-    color: #564861;
+    color: #3c9100;
 }
 
 .gradient-text {
     /* font-size: 36px;  */
-    background: linear-gradient(to right, #ff7e5f, #feb47b, #ffdf93, #a1e4ff, #b5fffd);
+    background: linear-gradient(to right, #ff3502, #ff6f00, #ffb300, #00b7ffd3, #00fff7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;

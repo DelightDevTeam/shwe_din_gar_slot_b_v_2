@@ -6,7 +6,8 @@
     z-index: 99;
     box-shadow: 0 -1px 3px rgb(0, 0, 0, 0.7);
     /* background: linear-gradient(to bottom, #630D93, #3A107D); */
-    background: #2B1C40;
+    background: rgb(177,142,0);
+    background: linear-gradient(171deg, rgba(177,142,0,1) 50%, rgba(255,162,0,1) 100%);
     cursor: pointer;
 
 }
@@ -18,10 +19,11 @@
 }
 
 .loginBtn {
-    background: linear-gradient(to right, rgb(204, 69, 196), rgb(121, 68, 188), rgb(66, 119, 182));
+    background: rgb(164,177,0);
+    background: linear-gradient(171deg, rgba(164,177,0,1) 50%, rgba(100,132,0,1) 100%);
     color: #fff;
     font-size: 13px;
-
+    box-shadow: 2px 3px 4px #000;
 }
 
 .navIcon {

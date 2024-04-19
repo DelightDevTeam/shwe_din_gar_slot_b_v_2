@@ -11,11 +11,12 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Autoplay, Pagination } from 'swiper/modules';
 import useFetch from '../hooks/useFetch';
+import BASE_URL from '../hooks/baseURL';
 
 const Carousel = () => {
     // const banners = [b1, b2, b3, b4, b1];
-    const { data: banners, error, loading } = useFetch('https://livesportapi.online/api/banner');
-    // console.log('banner', banners)
+    const { data: banners, error, loading } = useFetch(BASE_URL + "/banner");
+    // console.log(banners)
     return (
         <div>
             <Swiper

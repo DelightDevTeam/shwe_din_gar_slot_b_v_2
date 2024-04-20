@@ -5,10 +5,11 @@
 
 .gradient-text {
     /* font-size: 36px;  */
-    background: linear-gradient(to right, #ff7e5f, #feb47b, #ffdf93, #a1e4ff, #b5fffd);
+    /* background: linear-gradient(to right, #ff7e5f, #feb47b, #ffdf93, #a1e4ff, #b5fffd);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    display: inline-block;
+    display: inline-block; */
+    color: #FFD036;
 }
 
 .history:hover {

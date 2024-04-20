@@ -30,6 +30,8 @@
  .gameCard {
      width: 100%;
      height: 250px;
+     border: 2px solid #fffc75;
+
  }
 
  .nav-pills .nav-link {
@@ -42,21 +44,12 @@
 
  .nav-pills .nav-link.active {
      background: none;
-     border-radius: 8px;
- }
+     border-radius: 2px;
+     border-bottom: 2px solid #FED32E;
+     padding-bottom: -2px ;
+    }
 
- .nav-pills .nav-link.active::after {
-     content: "";
-     position: absolute;
-     bottom: 0;
-     left: 0;
-     width: 100%;
-     height: 3px;
-     background: linear-gradient(to right, rgb(204, 69, 196), rgb(121, 68, 188), rgb(66, 119, 182));
-     border-radius: 5px;
-     /* Match button's border radius */
- }
-
+ 
  @media screen and (max-width:780px) {
      .nav-pills .nav-link {
          font-size: 13px;
